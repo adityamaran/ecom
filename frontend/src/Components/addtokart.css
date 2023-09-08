@@ -1,0 +1,152 @@
+.add-to-kart{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.addtokart-container{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+div::-webkit-scrollbar{
+    display: none;
+    /* width: 5px; */
+    
+}
+.addtokart1{
+scrollbar-width: 1px;
+  height: 100vh;
+  overflow-y: scroll;
+
+    /* border: solid red 1px; */
+    padding: 0px 20px;
+
+
+}
+
+.addtokart2{
+    /* margin-top: -10px; */
+}
+
+.addtokart2 h2{
+    font-weight: 500;
+    font-size: large;
+}
+
+.addtokart2 button:hover{ cursor: pointer;
+box-shadow: 0px 0px 8px silver;}
+.addtokart2 button{
+    margin-left: 11%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+    width: 75%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 213, 0);
+    color: black;
+}
+.addtokart2{
+    padding-left: 10px;
+    padding-top: 18px;
+    width: 100%;
+    /* margin-right: -30px; */
+    /* border:  solid red 1px; */
+    /* padding-right: 233px; */
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    height: fit-content;
+    margin-top: 95px;
+    color: green;
+
+
+    text-align: left;
+    /* border: solid black 2px; */
+    width: 65%;
+
+}
+.btn4bb:hover,.btn4aa:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 19px silver;
+}
+
+.btn4bb{
+    padding: 7px 45px;
+background-color: rgb(247, 214, 0);
+color: black;
+font-size: larger;
+border: none;
+
+}
+.btn4aa{
+    padding: 7px 70px;
+font-size: larger;
+
+    background-color: rgb(255, 128, 0);
+    color: black;
+    border: none;
+
+}
+
+
+#x1{
+color: green;
+}
+.p-x{
+    /* margin-bottom: -230px; */
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-item-2 h1{
+    text-align: left;
+    font-weight: 500;
+    font-size: x-large;
+    /* margin-bottom: -60px; */
+}
+.cart-item-1{
+    /* border: solid green 2px; */
+    /* width: 30%; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+
+}
+.acc-icon{
+    size: 500px;
+}
+
+.hide{
+    display: none;
+}
+.cart-item-1 img{
+    /* width: 60%; */
+    /* height: 90%; */
+    height: 188px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* height: 250px; */
+}
+
+.cart-item-container{
+    display: grid;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+    grid-template-columns: 1fr 2.5fr;
+    width: 100%;
+    height: 200px;
+    margin-top:20px ;
+    margin-bottom: 10px;
+
+}
+
+.cart-item-2{
+    /* border: solid yellow 2px; */
+}
+
+.addtokart1 h2{
+    padding-left: 5px;
+    font-weight: 300;
+    text-align: left;
+}

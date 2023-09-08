@@ -1,0 +1,21 @@
+.pgrid-container{
+    width: 100vw;
+    display: grid;
+    
+    /* height: vh; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+     /* background: rgb(41,247,255);
+background: radial-gradient(circle, rgba(41,247,255,1) 0%, rgba(0,0,0,0) 91%); */
+
+}
+
+.piroduct{
+  
+  
+
+}
+
+.piroduct img{
+    width: 23vw;
+}

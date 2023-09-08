@@ -1,0 +1,13 @@
+.main{
+    /* display:  flex; */
+     justify-content: center;
+}
+.main button{
+    width: 220px;
+    height: 35px;border: none;
+    background-color: greenyellow;
+    margin:40px;
+}
+.main input{
+    width: 200px;
+    height: 25px;}

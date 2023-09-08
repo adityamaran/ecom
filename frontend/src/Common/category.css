@@ -1,0 +1,81 @@
+.options-container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-family:  'Roboto', sans-serif;
+    color: rgb(116, 116, 116);
+    background-color:rgb(255, 255, 255) ;
+    height: 55px;
+    font-size: small;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    z-index: 100;
+}
+
+.black-font{
+    color: rgb(116, 116, 116);
+
+   
+}
+.option-hover:hover{
+    background-color:rgb(255, 255, 255) ;
+border-bottom: solid rgb(0, 0, 0) 2px; 
+   color: black;
+    cursor: pointer;
+}
+.option-hover{
+    transition: 0.1s ease-in-out;
+    
+}
+.option-category:hover{
+    color: black;
+    font-weight: 200;
+    cursor: pointer;
+}
+.dropdownctegory h3:hover{
+    background-color: rgba(162, 157, 157, 0.328);
+}
+.option-category:hover .dropdownctegory{
+    display: block;
+
+
+}
+.option-category{
+    display: flex;
+    position: relative;
+}
+.option-category span{
+    padding-top: 13.2px;
+}
+.option-with-hr{
+    height: 20px;
+}
+.dropdownctegory h3{
+    padding: 12px 5px;
+    transition: 0.2s ease-in-out;
+}
+.dropdownctegory{
+   
+
+    display: none;
+    margin-top: 35px;
+    text-align: left;
+    /* z-index: 5; */
+
+    width: auto;
+    position: absolute;
+    background-color: white;
+    padding: 0px 10px;
+    /* border: solid black 1px; */
+}
+
+.dropdown-btnp{
+    position: relative;
+    /* border: solid red 1px; */
+    width: 200px;
+}
+.dropdown-btn{
+    position: absolute;
+    right: 1px;
+    top :12px;
+}

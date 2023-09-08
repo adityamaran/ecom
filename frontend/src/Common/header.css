@@ -1,0 +1,143 @@
+.main-header{
+   width: 100%;
+   background-color: rgba(221, 221, 221, 0.068);
+   height: 70px;
+   background-color: #F5F5F5;
+   /* border: solid red 1px; */
+   /* border-bottom: solid rgb(0, 140, 255) 3px; */
+   display: flex;
+justify-content: space-around;
+box-shadow: 0px 1px 4px black;
+}
+
+
+
+.searchicon{
+    /* padding-top: 20px; */
+    /* position: absolute; */
+    position: relative;
+    top: 7px;
+    left: 32px;
+    z-index: 2;
+   
+}
+
+.header-part-1B{
+height: 65%;
+padding-top: 10px;
+align-items: middle;
+width: 350px;
+align-items: center;
+/* border: solid pink 1px; */
+
+}
+.header-part-1{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header-part-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-part-1A{
+    margin: 0 55px;
+
+}
+.header-part-2{
+    display: flex;
+    width: 40%;
+    /* border: solid greenyellow 1px; */
+    justify-content: space-around;
+
+}
+.header-part-2A{
+    /* border: solid black 1px; */
+    margin: 0 55px;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.header-part-1B{
+    /* display: flex; */
+}
+.searchbar-item{
+    height: 100%;
+    display: flex;
+
+    /* border: solid red 1px; */
+}
+.search-bar{
+   
+    border-right: none;
+    width: 80%;
+    height: 80%;
+    border: solid black 0.5px;
+    position: relative;
+    /* border-color: rgb(0, 84, 57); */
+    /* bord */
+    
+    /* border-right: none; */
+    /* border: none; */
+    /* background-color: rgba(3, 253, 253, 0.059); */
+    padding-left: 40px;
+}
+.search-button{
+    /* position: absolute; */
+    /* color: blue; */
+    /* background-color: rgb(0, 84, 57); */
+ /* padding-top: -10px; */
+ height: 82%;
+ /* border-radius: 15px; */
+ margin-left: -2px;
+ z-index: 2;
+ font-size: large;
+ background-color:rgb(0, 0, 0);;
+ color: rgb(255, 255, 255);
+    border: solid rgb(0, 252, 139) 0px;
+}
+.search-button:hover{
+    cursor: pointer;
+    /* background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out; */
+
+}
+.icon-color1{
+    margin-right: -25px;
+}
+
+.header-part-2B{
+    display: flex;
+    width: 20%;
+
+    color:  rgb(36, 36, 36) 3px;
+
+   
+    justify-content: space-around;
+}
+
+
+.headphone-header-logo{
+    position: relative;
+    color: rgb(64, 64, 64) 3px;
+}
+.contact-header{
+
+    position: absolute;
+    padding-left: 15px;
+}
+
+
+.icon-color{
+   /* border-bottom: solid rgb(0, 231, 127) 3px; */
+
+    
+color: black;
+
+}
+

@@ -1,0 +1,77 @@
+.footer-container{
+    /* padding-bottom: 40px; */
+    
+    padding-top: 50px;
+    margin-bottom: -20px;
+    background-color: #F5F5F5;
+
+}
+.footer-container h5{
+    font-weight: 400;
+/* margin-top: -10px; */
+margin-bottom: -10px;
+}
+
+.madi-in-class span{
+    color: red;
+    /* position: relative; */
+}
+.footer-container h4{
+    /* position: absolute; */
+    font-weight: 400;
+    /* padding-bottom: 30px; */
+}
+.madi-in-class{
+
+    padding-top: 80px;
+}
+.footer-container h5:hover{
+    cursor: pointer;
+    /* transition: 0.3s ease-in-out; */
+    /* background-color: #00FFFF; */
+    /* color:  black; */
+    color: brown;
+    font-weight:600 ;
+
+}
+.news-later-icon{
+    position: absolute;
+    margin-top: 35px;
+   
+
+
+}
+.footer-section-4 span{
+    /* font-size: 33px; */
+}
+
+.footer-section-4 input{
+    height: 25px;
+    padding-left: 10px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+
+}
+.newslater-input{
+    margin-top: 35px;
+    position: relative;
+}
+.sharing-icon-container{
+    display:  grid ;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+}
+
+.footer-sub-container{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-section
+{
+    text-align: left;
+    padding-left: 20px;
+    /* border-right: solid gray 1px; */
+}
